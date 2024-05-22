@@ -7,10 +7,22 @@ public class ProductsPage {
 @FindBy(xpath = "//span[text()='Featured']")
 private WebElement featuredDropdown;
 
+
 @FindBy(id = "s-result-sort-select_2")
 private WebElement priceHighToLowSelect;
 
+@FindBy(id = "s-result-sort-select_1")
+private WebElement priceLowToHighSelect;
+
+public WebElement getFeaturedDropdown() {
+	return featuredDropdown;
+}
+
+public WebElement getPriceLowToHighSelect() {
+	return priceLowToHighSelect;
+}
 public WebElement getPriceHighToLowSelect() {
 	return priceHighToLowSelect;
 }
+
 }
