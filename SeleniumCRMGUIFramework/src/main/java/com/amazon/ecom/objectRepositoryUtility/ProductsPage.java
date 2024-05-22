@@ -14,6 +14,12 @@ private WebElement priceHighToLowSelect;
 @FindBy(id = "s-result-sort-select_1")
 private WebElement priceLowToHighSelect;
 
+
+
+@FindBy(id = "s-result-sort-select_1")
+private WebElement locationSelect;
+
+
 public WebElement getFeaturedDropdown() {
 	return featuredDropdown;
 }
@@ -23,6 +29,9 @@ public WebElement getPriceLowToHighSelect() {
 }
 public WebElement getPriceHighToLowSelect() {
 	return priceHighToLowSelect;
+}
+public WebElement getLocationSelect() {
+	return locationSelect;
 }
 
 }
