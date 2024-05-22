@@ -14,6 +14,13 @@ private WebElement priceHighToLowSelect;
 @FindBy(id = "s-result-sort-select_1")
 private WebElement priceLowToHighSelect;
 
+@FindBy(id = "s-result-sort-select_3")
+private WebElement justToTest;
+
+public WebElement getJustToTest() {
+	return justToTest;
+}
+
 public WebElement getFeaturedDropdown() {
 	return featuredDropdown;
 }
@@ -24,5 +31,6 @@ public WebElement getPriceLowToHighSelect() {
 public WebElement getPriceHighToLowSelect() {
 	return priceHighToLowSelect;
 }
+
 
 }
