@@ -11,6 +11,13 @@ public class PhoneSearchPage {
 
 	@FindBy(id = "s-result-sort-select_1")
 	private WebElement priceLowToHighSelect;
+	
+	@FindBy(id = "s-result-sort-select_2")
+	private WebElement priceHighToLowSelect;
+
+	public WebElement getPriceHighToLowSelect() {
+		return priceHighToLowSelect;
+	}
 
 	WebDriver driver;
 	public PhoneSearchPage(WebDriver driver) {
