@@ -31,7 +31,6 @@ private WebElement justToTest1;
 public WebElement getJustToTest() {
 	return justToTest;
 }
->>>>>>> branch 'master' of https://github.com/jmavileth/GreystarFrameworkRepo.git
 
 public WebElement getFeaturedDropdown() {
 	return featuredDropdown;
