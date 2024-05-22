@@ -15,10 +15,23 @@ private WebElement priceHighToLowSelect;
 private WebElement priceLowToHighSelect;
 
 
-
 @FindBy(id = "s-result-sort-select_1")
 private WebElement locationSelect;
 
+@FindBy(id = "s-result-sort-select_3")
+private WebElement justToTest;
+
+public WebElement getJustToTest1() {
+	return justToTest1;
+}
+@FindBy(id = "s-result-sort-select_4")
+private WebElement justToTest1;
+
+
+public WebElement getJustToTest() {
+	return justToTest;
+}
+>>>>>>> branch 'master' of https://github.com/jmavileth/GreystarFrameworkRepo.git
 
 public WebElement getFeaturedDropdown() {
 	return featuredDropdown;
@@ -33,5 +46,6 @@ public WebElement getPriceHighToLowSelect() {
 public WebElement getLocationSelect() {
 	return locationSelect;
 }
+
 
 }
